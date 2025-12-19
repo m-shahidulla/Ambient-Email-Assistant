@@ -1,0 +1,101 @@
+id,email_text,expected_action,expected_tone,clean_text,predicted_action,predicted_tone,action_correct,tone_correct
+1,This is a weekly newsletter with general updates. No action required.,notify,neutral,this is a weekly newsletter with general updates no action required,ignore,neutral,False,True
+2,"Congratulations, you have been selected for the next interview round.",notify,urgent,congratulations you have been selected for the next interview round,ignore,neutral,False,False
+3,Your order has been shipped and will be delivered within 3 days.,notify,polite,your order has been shipped and will be delivered within  days,ignore,neutral,False,False
+4,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,notify,urgent,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,False
+5,Your order has been shipped and will be delivered within 3 days.,ignore,urgent,your order has been shipped and will be delivered within  days,ignore,neutral,True,False
+6,Security alert: A login attempt was detected from a new device.,respond,urgent,security alert a login attempt was detected from a new device,notify,neutral,False,False
+7,Your order has been shipped and will be delivered within 3 days.,respond,urgent,your order has been shipped and will be delivered within  days,ignore,neutral,False,False
+8,Thank you for contacting support. We are reviewing your query.,ignore,neutral,thank you for contacting support we are reviewing your query,ignore,polite,True,False
+9,Thank you for contacting support. We are reviewing your query.,ignore,neutral,thank you for contacting support we are reviewing your query,ignore,polite,True,False
+10,This is a weekly newsletter with general updates. No action required.,ignore,urgent,this is a weekly newsletter with general updates no action required,ignore,neutral,True,False
+11,Your order has been shipped and will be delivered within 3 days.,respond,urgent,your order has been shipped and will be delivered within  days,ignore,neutral,False,False
+12,Security alert: A login attempt was detected from a new device.,respond,polite,security alert a login attempt was detected from a new device,notify,neutral,False,False
+13,System maintenance is scheduled this weekend.,ignore,neutral,system maintenance is scheduled this weekend,ignore,neutral,True,True
+14,Your internship application has been shortlisted. Please reply to confirm availability.,notify,urgent,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+15,Security alert: A login attempt was detected from a new device.,respond,neutral,security alert a login attempt was detected from a new device,notify,neutral,False,True
+16,System maintenance is scheduled this weekend.,ignore,neutral,system maintenance is scheduled this weekend,ignore,neutral,True,True
+17,This is a weekly newsletter with general updates. No action required.,ignore,polite,this is a weekly newsletter with general updates no action required,ignore,neutral,True,False
+18,Thank you for contacting support. We are reviewing your query.,notify,neutral,thank you for contacting support we are reviewing your query,ignore,polite,False,False
+19,This is a weekly newsletter with general updates. No action required.,notify,polite,this is a weekly newsletter with general updates no action required,ignore,neutral,False,False
+20,Security alert: A login attempt was detected from a new device.,respond,urgent,security alert a login attempt was detected from a new device,notify,neutral,False,False
+21,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,ignore,polite,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,True,False
+22,Security alert: A login attempt was detected from a new device.,ignore,polite,security alert a login attempt was detected from a new device,notify,neutral,False,False
+23,This is a weekly newsletter with general updates. No action required.,notify,polite,this is a weekly newsletter with general updates no action required,ignore,neutral,False,False
+24,System maintenance is scheduled this weekend.,notify,neutral,system maintenance is scheduled this weekend,ignore,neutral,False,True
+25,Please submit the assignment by tonight to avoid late penalties.,respond,polite,please submit the assignment by tonight to avoid late penalties,respond,polite,True,True
+26,Your internship application has been shortlisted. Please reply to confirm availability.,ignore,polite,your internship application has been shortlisted please reply to confirm availability,ignore,polite,True,True
+27,System maintenance is scheduled this weekend.,ignore,neutral,system maintenance is scheduled this weekend,ignore,neutral,True,True
+28,Your internship application has been shortlisted. Please reply to confirm availability.,notify,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+29,Please submit the assignment by tonight to avoid late penalties.,ignore,polite,please submit the assignment by tonight to avoid late penalties,respond,polite,False,True
+30,This is a weekly newsletter with general updates. No action required.,notify,urgent,this is a weekly newsletter with general updates no action required,ignore,neutral,False,False
+31,Invoice INR 18450 is pending and must be cleared before the due date.,notify,neutral,invoice inr  is pending and must be cleared before the due date,respond,neutral,False,True
+32,Your internship application has been shortlisted. Please reply to confirm availability.,respond,urgent,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+33,This is a weekly newsletter with general updates. No action required.,respond,neutral,this is a weekly newsletter with general updates no action required,ignore,neutral,False,True
+34,Invoice INR 18450 is pending and must be cleared before the due date.,notify,urgent,invoice inr  is pending and must be cleared before the due date,respond,neutral,False,False
+35,This is a weekly newsletter with general updates. No action required.,notify,urgent,this is a weekly newsletter with general updates no action required,ignore,neutral,False,False
+36,System maintenance is scheduled this weekend.,notify,urgent,system maintenance is scheduled this weekend,ignore,neutral,False,False
+37,"Congratulations, you have been selected for the next interview round.",ignore,neutral,congratulations you have been selected for the next interview round,ignore,neutral,True,True
+38,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,ignore,urgent,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,True,False
+39,Thank you for contacting support. We are reviewing your query.,ignore,urgent,thank you for contacting support we are reviewing your query,ignore,polite,True,False
+40,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,respond,neutral,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,True
+41,Thank you for contacting support. We are reviewing your query.,ignore,polite,thank you for contacting support we are reviewing your query,ignore,polite,True,True
+42,Security alert: A login attempt was detected from a new device.,ignore,neutral,security alert a login attempt was detected from a new device,notify,neutral,False,True
+43,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,notify,polite,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,False
+44,Your order has been shipped and will be delivered within 3 days.,ignore,neutral,your order has been shipped and will be delivered within  days,ignore,neutral,True,True
+45,Please submit the assignment by tonight to avoid late penalties.,respond,polite,please submit the assignment by tonight to avoid late penalties,respond,polite,True,True
+46,"Congratulations, you have been selected for the next interview round.",notify,neutral,congratulations you have been selected for the next interview round,ignore,neutral,False,True
+47,Your order has been shipped and will be delivered within 3 days.,notify,polite,your order has been shipped and will be delivered within  days,ignore,neutral,False,False
+48,Thank you for contacting support. We are reviewing your query.,notify,urgent,thank you for contacting support we are reviewing your query,ignore,polite,False,False
+49,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,respond,neutral,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,True
+50,Your internship application has been shortlisted. Please reply to confirm availability.,respond,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+51,Your order has been shipped and will be delivered within 3 days.,ignore,urgent,your order has been shipped and will be delivered within  days,ignore,neutral,True,False
+52,Your internship application has been shortlisted. Please reply to confirm availability.,respond,urgent,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+53,Security alert: A login attempt was detected from a new device.,notify,polite,security alert a login attempt was detected from a new device,notify,neutral,True,False
+54,Your internship application has been shortlisted. Please reply to confirm availability.,ignore,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,True,False
+55,Thank you for contacting support. We are reviewing your query.,ignore,urgent,thank you for contacting support we are reviewing your query,ignore,polite,True,False
+56,Invoice INR 18450 is pending and must be cleared before the due date.,respond,polite,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,False
+57,Security alert: A login attempt was detected from a new device.,respond,urgent,security alert a login attempt was detected from a new device,notify,neutral,False,False
+58,"Congratulations, you have been selected for the next interview round.",respond,polite,congratulations you have been selected for the next interview round,ignore,neutral,False,False
+59,Security alert: A login attempt was detected from a new device.,ignore,polite,security alert a login attempt was detected from a new device,notify,neutral,False,False
+60,Security alert: A login attempt was detected from a new device.,ignore,polite,security alert a login attempt was detected from a new device,notify,neutral,False,False
+61,Security alert: A login attempt was detected from a new device.,respond,polite,security alert a login attempt was detected from a new device,notify,neutral,False,False
+62,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,respond,urgent,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,False
+63,Your order has been shipped and will be delivered within 3 days.,respond,urgent,your order has been shipped and will be delivered within  days,ignore,neutral,False,False
+64,Invoice INR 18450 is pending and must be cleared before the due date.,ignore,polite,invoice inr  is pending and must be cleared before the due date,respond,neutral,False,False
+65,Invoice INR 18450 is pending and must be cleared before the due date.,respond,urgent,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,False
+66,Thank you for contacting support. We are reviewing your query.,respond,polite,thank you for contacting support we are reviewing your query,ignore,polite,False,True
+67,This is a weekly newsletter with general updates. No action required.,ignore,polite,this is a weekly newsletter with general updates no action required,ignore,neutral,True,False
+68,Your internship application has been shortlisted. Please reply to confirm availability.,respond,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+69,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,ignore,neutral,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,True,True
+70,Your internship application has been shortlisted. Please reply to confirm availability.,ignore,polite,your internship application has been shortlisted please reply to confirm availability,ignore,polite,True,True
+71,Please submit the assignment by tonight to avoid late penalties.,ignore,urgent,please submit the assignment by tonight to avoid late penalties,respond,polite,False,False
+72,Invoice INR 18450 is pending and must be cleared before the due date.,notify,neutral,invoice inr  is pending and must be cleared before the due date,respond,neutral,False,True
+73,Please submit the assignment by tonight to avoid late penalties.,ignore,neutral,please submit the assignment by tonight to avoid late penalties,respond,polite,False,False
+74,This is a weekly newsletter with general updates. No action required.,notify,neutral,this is a weekly newsletter with general updates no action required,ignore,neutral,False,True
+75,This is a weekly newsletter with general updates. No action required.,ignore,polite,this is a weekly newsletter with general updates no action required,ignore,neutral,True,False
+76,Thank you for contacting support. We are reviewing your query.,respond,urgent,thank you for contacting support we are reviewing your query,ignore,polite,False,False
+77,Invoice INR 18450 is pending and must be cleared before the due date.,respond,urgent,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,False
+78,"Congratulations, you have been selected for the next interview round.",ignore,urgent,congratulations you have been selected for the next interview round,ignore,neutral,True,False
+79,System maintenance is scheduled this weekend.,respond,polite,system maintenance is scheduled this weekend,ignore,neutral,False,False
+80,Your order has been shipped and will be delivered within 3 days.,ignore,neutral,your order has been shipped and will be delivered within  days,ignore,neutral,True,True
+81,Please submit the assignment by tonight to avoid late penalties.,notify,neutral,please submit the assignment by tonight to avoid late penalties,respond,polite,False,False
+82,"Congratulations, you have been selected for the next interview round.",respond,urgent,congratulations you have been selected for the next interview round,ignore,neutral,False,False
+83,System maintenance is scheduled this weekend.,ignore,neutral,system maintenance is scheduled this weekend,ignore,neutral,True,True
+84,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,ignore,urgent,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,True,False
+85,Invoice INR 18450 is pending and must be cleared before the due date.,respond,polite,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,False
+86,Reminder: The project review meeting is scheduled for tomorrow at 11:00 AM.,respond,urgent,reminder the project review meeting is scheduled for tomorrow at  am,ignore,neutral,False,False
+87,Your order has been shipped and will be delivered within 3 days.,respond,neutral,your order has been shipped and will be delivered within  days,ignore,neutral,False,True
+88,Please submit the assignment by tonight to avoid late penalties.,notify,urgent,please submit the assignment by tonight to avoid late penalties,respond,polite,False,False
+89,Your internship application has been shortlisted. Please reply to confirm availability.,respond,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+90,Your order has been shipped and will be delivered within 3 days.,ignore,polite,your order has been shipped and will be delivered within  days,ignore,neutral,True,False
+91,Please submit the assignment by tonight to avoid late penalties.,notify,polite,please submit the assignment by tonight to avoid late penalties,respond,polite,False,True
+92,Your internship application has been shortlisted. Please reply to confirm availability.,respond,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,False,False
+93,Invoice INR 18450 is pending and must be cleared before the due date.,respond,polite,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,False
+94,Your internship application has been shortlisted. Please reply to confirm availability.,ignore,neutral,your internship application has been shortlisted please reply to confirm availability,ignore,polite,True,False
+95,"Congratulations, you have been selected for the next interview round.",notify,polite,congratulations you have been selected for the next interview round,ignore,neutral,False,False
+96,Invoice INR 18450 is pending and must be cleared before the due date.,respond,neutral,invoice inr  is pending and must be cleared before the due date,respond,neutral,True,True
+97,This is a weekly newsletter with general updates. No action required.,notify,urgent,this is a weekly newsletter with general updates no action required,ignore,neutral,False,False
+98,Your order has been shipped and will be delivered within 3 days.,respond,neutral,your order has been shipped and will be delivered within  days,ignore,neutral,False,True
+99,System maintenance is scheduled this weekend.,notify,urgent,system maintenance is scheduled this weekend,ignore,neutral,False,False
+100,"Congratulations, you have been selected for the next interview round.",respond,polite,congratulations you have been selected for the next interview round,ignore,neutral,False,False
