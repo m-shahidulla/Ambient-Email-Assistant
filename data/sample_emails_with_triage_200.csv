@@ -1,4 +1,4 @@
-id,sender,subject,email_text,priority,triage_label,ideal_intent,ideal_tone
+id,sender,subject,body,priority,triage_label,ideal_intent,ideal_tone
 1,alerts@bank.com,Password Reset Request,Reminder: The client meeting is scheduled at 10:00 tomorrow. Prepare your slides.,low,notify_human,respond,neutral
 2,alerts@bank.com,Congratulations! You've Won,Your invoice of INR 25515.09 is due on 2025-12-12. Please pay to avoid late fees.,low,respond,respond,polite
 3,no-reply@service.com,Promotion: Big Sale,Reminder: The client meeting is scheduled at 11:30 tomorrow. Prepare your slides.,low,ignore,ignore,neutral
